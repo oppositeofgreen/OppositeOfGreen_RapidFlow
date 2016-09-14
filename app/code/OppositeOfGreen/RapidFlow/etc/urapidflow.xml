@@ -68,10 +68,9 @@
                 <columns>
                     <sku><col>1</col><key>1</key></sku>
                     <attribute_code><col>2</col><key>1</key></attribute_code>
-                    <store><col>3</col></store>
-                    <value><col>4</col></value>
-                    <position><col>5</col></position>
-                    <glue><col>6</col></glue>
+                    <value><col>3</col></value>
+                    <position><col>4</col></position>
+                    <glue><col>5</col></glue>
                 </columns>
             </CPAV>
         </row_types>
