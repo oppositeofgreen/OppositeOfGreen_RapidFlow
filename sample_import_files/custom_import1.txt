@@ -1,3 +1,0 @@
-CPAV,sku1,some_multiselect_attribute,A
-CPAV,sku1,some_multiselect_attribute,B
-CPAV,sku1,some_multiselect_attribute,C

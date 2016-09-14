@@ -23,7 +23,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Unirgy\RapidFlow\Helper\Data as HelperData;
 use Unirgy\RapidFlow\Model\ResourceModel\AbstractResource as ResourceModelAbstractResource;
 use Unirgy\RapidFlow\Model\ResourceModel\AbstractResource\Fixed as AbstractResourceFixed;
-use Unirgy\RapidFlowPro\Model\ResourceModel\ProductExtraAlt as UnirgyProductExtra;
+use Unirgy\RapidFlowPro\Model\ResourceModel\ProductExtra as UnirgyProductExtra;
 
 /**
  * Class ProductExtra
