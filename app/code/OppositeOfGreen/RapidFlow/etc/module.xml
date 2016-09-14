@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category    OppositeOfGreen
+ * @package     OppositeOfGreen_RapidFlow
+ * @author      oppositeofgreen.magento@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="OppositeOfGreen_RapidFlow" setup_version="0.1.0">
+        <sequence>
+            <module name="Unirgy_RapidFlow"/>
+            <module name="Unirgy_RapidFlowPro"/>
+        </sequence>
+    </module>
+</config>

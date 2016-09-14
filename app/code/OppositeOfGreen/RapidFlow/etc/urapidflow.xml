@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    OppositeOfGreen
+ * @package     OppositeOfGreen_RapidFlow
+ * @author      oppositeofgreen.magento@gmail.com
+ */
+-->
+<config>
+    <urapidflow>
+        <data_types>
+            <product_extra2>
+                <title>Products Extra (Custom)</title>
+                <row_format>fixed</row_format>
+                <model>OppositeOfGreen\RapidFlow\Model\ResourceModel\ProductExtra</model>
+                <profile>
+                    <import>
+                        <tabs>
+                            <file>
+                                <title>File Options</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\File</block>
+                            </file>
+                            <csv>
+                                <title>Format Options</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\Csv</block>
+                            </csv>
+                            <options>
+                                <title>Import Options</title>
+                                <block>Unirgy\RapidFlowPro\Block\Adminhtml\Profile\ProductExtra\ImportOptions</block>
+                            </options>
+                            <upload>
+                                <title>Upload Files</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\Upload</block>
+                            </upload>
+                            <reindex>
+                                <title>Reindex</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\Reindex</block>
+                            </reindex>
+                        </tabs>
+                    </import>
+                    <export>
+                        <tabs>
+                            <file>
+                                <title>File Options</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\File</block>
+                            </file>
+                            <csv>
+                                <title>Format Options</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\Csv</block>
+                            </csv>
+                            <options>
+                                <title>Export Options</title>
+                                <block>Unirgy\RapidFlowPro\Block\Adminhtml\Profile\ProductExtra\ExportOptions</block>
+                            </options>
+                            <conditions>
+                                <title>Export Conditions</title>
+                                <block>Unirgy\RapidFlow\Block\Adminhtml\Profile\Edit\Tab\Export\Condition</block>
+                            </conditions>
+                        </tabs>
+                    </export>
+                </profile>
+            </product_extra2>
+        </data_types>
+        <row_types>
+            <CPAV>
+                <title>Product Attribute Value</title>
+                <data_type>product_extra2</data_type>
+                <columns>
+                    <sku><col>1</col><key>1</key></sku>
+                    <attribute_code><col>2</col><key>1</key></attribute_code>
+                    <store><col>3</col></store>
+                    <value><col>4</col></value>
+                    <position><col>5</col></position>
+                    <glue><col>6</col></glue>
+                </columns>
+            </CPAV>
+        </row_types>
+    </urapidflow>
+</config>

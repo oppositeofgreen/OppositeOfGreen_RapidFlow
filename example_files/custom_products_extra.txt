@@ -1,0 +1,10 @@
+CPAV,sku1,some_multiselect_attribute,A
+CPAV,sku1,some_multiselect_attribute,B
+CPAV,sku1,some_multiselect_attribute,C
+CPAV,sku1,some_multiselect_attribute,Missing Value
+CPAV,sku2,some_text_attribute,World,2," "
+CPAV,sku2,some_text_attribute,Hello,1," "
+CPAV,sku3,some_missing_attribute,Hello,1," "
+CCP,cat1/cat2,sku1
+CCP,cat1/cat2,sku2
+CCP,cat1/cat2,sku3

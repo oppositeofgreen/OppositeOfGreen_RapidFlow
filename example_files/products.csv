@@ -1,0 +1,4 @@
+status,product.websites,product.type,product.attribute_set,sku,name,price,stock.is_in_stock,stock.qty,visibility,some_multiselect_attribute,some_text_attribute
+Enabled,base,Simple,Default,sku1,"Sku 1",9.99,"In Stock",100,"Catalog, Search",,
+Enabled,base,Simple,Default,sku2,"Sku 2",9.99,"In Stock",100,"Catalog, Search",,
+Enabled,base,Simple,Default,sku3,"Sku 3",9.99,"In Stock",100,"Catalog, Search",,

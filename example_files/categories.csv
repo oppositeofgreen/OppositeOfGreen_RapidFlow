@@ -1,0 +1,3 @@
+is_active,name,url_path,include_in_menu,is_anchor,image,position,description,meta_keywords
+YES,"Cat 1",cat1,YES,YES,,1,,
+YES,"Cat 2",cat1/cat2,YES,YES,,1,,
